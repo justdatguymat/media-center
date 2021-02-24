@@ -14,6 +14,7 @@ setup(
     author='Matt Koltun',
     author_email='matt@koltunm.com',
     url='https://github.com/justdatguymat/media-center',
+    python_requires='>=3.6',
     package_dir={
         "" : "src"
     },
@@ -28,5 +29,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    test_suite
 )
